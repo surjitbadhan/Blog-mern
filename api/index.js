@@ -24,7 +24,7 @@ app.post("/register", async (req, res) => {
   }
 });
 
-app.post("/login", async (req, res) => {
+app.post("/login", async (req, res) => { 
   const { username, password } = req.body;
 
   // Find the user (replace this with your actual user model)
